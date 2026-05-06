@@ -1,0 +1,26 @@
+body {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin:0;
+    background: radial-gradient(circle,#1a1a2e,#0f3460);
+    font-family:Segoe UI;
+    color:white;
+    flex-direction:column;
+}
+
+canvas {
+    border-radius:12px;
+    box-shadow:0 0 30px rgba(0,0,0,.7);
+    background:#0b132b;
+}
+
+.ui {
+    margin-bottom:10px;
+    text-align:center;
+}
+
+input {
+    width:200px;
+}
